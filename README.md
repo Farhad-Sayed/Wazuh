@@ -11,6 +11,9 @@
 ### 1.1 Background
 Wazuh is an open-source security information and event management (SIEM) tool designed to enhance the security posture of organizations by providing real-time threat detection, incident response, and compliance management. It originated as a fork of the OSSEC project and has since evolved to offer a more robust and scalable solution.
 
+![Wazuh Dashboard](https://github.com/Farhad-Sayed/Wazuh/blob/main/images/wazuh_dashboard_home.png)
+
+
 ### 1.2 Key Features
 Wazuh offers a range of features to address the evolving landscape of cybersecurity threats:
 - **Log Analysis:** Wazuh analyzes log data from various sources, including operating systems, applications, and network devices, to identify potential security incidents.
@@ -19,10 +22,16 @@ Wazuh offers a range of features to address the evolving landscape of cybersecur
 - **File Integrity Monitoring (FIM):** Wazuh monitors changes to critical files and directories, alerting administrators to unauthorized modifications, potentially indicative of a security incident.
 - **Security Information and Event Management (SIEM):** Wazuh provides a centralized platform for collecting, analyzing, and managing security events, facilitating efficient incident response.
 
+![Features](https://github.com/Farhad-Sayed/Wazuh/blob/main/images/wazuh-dashboard.png)
+
 ## 2. Vulnerability Detection
 
 ### 2.1 Importance of Vulnerability Detection
 Vulnerability detection is the process of identifying vulnerabilities in software and systems. Wazuh provides vulnerability detection capabilities by scanning systems for known vulnerabilities and providing alerts when vulnerabilities are detected. Identifying and patching vulnerabilities before they can be exploited is essential for maintaining a secure IT environment. Wazuh offers robust vulnerability detection capabilities to help organizations stay ahead of potential threats.
+
+![Ubuntu-Linux](https://github.com/Farhad-Sayed/Wazuh/blob/main/images/lin-vul-2.png)
+
+![Windows](https://github.com/Farhad-Sayed/Wazuh/blob/main/images/win-vul-2.png)
 
 ### 2.2 Wazuh Vulnerability Detection Process
 Wazuh employs various methods to detect vulnerabilities:
@@ -37,6 +46,10 @@ Wazuh employs various methods to detect vulnerabilities:
 File integrity monitoring is the process of monitoring files and directories for unauthorized changes. Wazuh provides file integrity monitoring capabilities by monitoring files and directories and triggering an alert when a user or process creates, modifies, or deletes monitored files. It runs a baseline scan, storing the cryptographic checksum and other attributes of the monitored files. When a user or process changes a file, the module compares its checksum and attributes to the baseline, triggering an alert if it finds a mismatch.
 
 FIM is crucial for detecting unauthorized changes to critical system files, configurations, and directories, helping organizations maintain the integrity and security of their systems by promptly identifying and responding to potential breaches.
+
+![Active-Response](https://github.com/Farhad-Sayed/Wazuh/blob/main/images/alert_active_response.png)
+
+![Eicar-Malware-testing](https://github.com/Farhad-Sayed/Wazuh/blob/main/images/eicar_deleted.png)
 
 ### 3.2 Wazuh File Integrity Monitoring Features
 - **Real-time Monitoring:** Wazuh continuously monitors file and directory changes in real-time, detecting alterations as soon as they occur.
